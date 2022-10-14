@@ -1,0 +1,14 @@
+.grid-container{
+    grid-gap: 5px;
+    display: grid;
+    margin-top: 80px;
+    margin: 80px;
+    -ms-g;
+}
+.btn{
+    max-width: 20%;
+    ali
+}
+.mb-3{
+    margin: 10px;
+}
