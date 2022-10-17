@@ -7,11 +7,13 @@
     <title>Stanford - Entre em contato</title>
     <link rel="stylesheet" href="boot/bootstrap.min.css">
     <link rel="stylesheet" href="app contato.css">
+    <!-- Feito por Bruno Melo -->
 
 </head>
 <body>
     <form>
         <div class="grid-container">
+            <h2>Encaminhe sua dúvida</h2>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Primeiro Nome</label>
           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -22,9 +24,13 @@
           <input type="text" class="form-control" id="exampleInputPassword1">
         </div>
         <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Número de telefone</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="(DDD)">
+          </div>
+        <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Endereço de e-mail</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nós não vamos compartilhar seu e-mail com mais ninguém.</div>
+            <div id="emailHelp" class="form-text">Nós não vamos compartilhar seu e-mail e telefone com mais ninguém.</div>
         </div>
 
          <div class="mb-3">
@@ -36,28 +42,26 @@
                   <option value="3">Ensino Bilíngue </option>
             </select>
         </div>
-
-            
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Assunto</label>
             <input type="text" class="form-control" id="exampleInputPassword1">
         </div>
+        <div class="mb-3">
+            <label for="floatingTextarea2">Dúvida</label>
+            <textarea class="form-control" placeholder="Escreva aqui sua dúvida que vamos te ajudar o mais breve possível" id="floatingTextarea2" style="height: 100px"></textarea>
+          </div>
             
-            <button type="submit" class="btn btn-primary" id="btn15">Submit</button>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"required>Aceito ser contatado pela instituição em meus dados de contato informados neste formulário.</label>
+        </div >
+            <button type="submit" class="btn btn-primary" id="btn15">Enviar minha dúvida</button>
             
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
         </div>
 
 
     </form>
     
-
-
-
-
 
     <script src="boot/bootstrap.bundle.min.js"></script>
 </body>
