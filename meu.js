@@ -31,10 +31,5 @@ document.querySelectorAll('input').forEach(($input)=>{
 
    
 function questao(){
-    swal({
-        title: "Good job!",
-        text: "You clicked the button!",
-        icon: "success",
-        }); 
-                   
+    alert( "Sua dúvida foi encaminhada com sucesso! Em breve entramos em contato!")   
 };
